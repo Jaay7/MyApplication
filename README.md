@@ -1,3 +1,2 @@
 # MyApplication
-This is a basic chat application.
-firebase
+This is a basic chat application using Android Studio with Firebase as backend
