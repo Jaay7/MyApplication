@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="?attr/backgroundcolor"
+    tools:context=".Fragments.ProfileFragment">
+
+    <!--<include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+        android:layout_marginTop="30dp"
+
+        app:cardBackgroundColor="?attr/cardbackground">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="?attr/textcolor"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginTop="15dp"
+                android:textColor="?attr/textcolor"
+                android:textStyle="bold"
+                android:id="@+id/username"
+                android:textSize="22sp"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:text="Edit profile"
+                android:background="@drawable/button"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:layout_below="@+id/username"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card1"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="1dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:text="Bio"
+                android:textColor="?attr/textcolor"
+                android:id="@+id/bio"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

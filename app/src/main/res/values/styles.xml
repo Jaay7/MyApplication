@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Light/Day mode theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#FFFFFF</item>
+        <item name="textcolor">#1E1E1E</item>
+        <item name="texthintcolor">#6E6E6E</item>
+        <item name="inputbackground">#D3D3D3</item>
+        <item name="chatleftcolor">#535353</item>
+        <item name="chatrightcolor">#BBBABA</item>
+        <item name="buttoncolor">#5CCCA9</item>
+        <item name="toolbarcolor">#FFFFFF</item>
+        <item name="tabcolor">#5CCCA9</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="bottomnavigationcolor">#5CCCA9</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransistion</item>
+
+    </style>
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- Yellow theme -->
+    <style name="YellowTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ffc400</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FAC825</item>
+        <item name="backgroundcolor">#fff9c4</item>
+        <item name="textcolor">#4B4B4B</item>
+        <item name="texthintcolor">#6E6E6E</item>
+        <item name="inputbackground">#ffee58</item>
+        <item name="chatleftcolor">#ffca28</item>
+        <item name="chatrightcolor">#ffe082 </item>
+        <item name="buttoncolor">#fbc02d </item>
+        <item name="toolbarcolor">#fff9c4 </item>
+        <item name="tabcolor">#ffc400 </item>
+        <item name="cardbackground">#ffe57f </item>
+        <item name="bottomnavigationcolor">#ffc400 </item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransistion</item>
+    </style>
+    <!-- Night/Dark mode theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="texthintcolor">#878686</item>
+        <item name="inputbackground">#515151</item>
+        <item name="chatleftcolor">#6A6A6A</item>
+        <item name="chatrightcolor">#575757</item>
+        <item name="buttoncolor">#5CCCA9</item>
+        <item name="toolbarcolor">#303030</item>
+        <item name="tabcolor">#5CCCA9</item>
+        <item name="cardbackground">#424242</item>
+        <item name="bottomnavigationcolor">#5CCCA9</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransistion</item>
+
+    </style>
+    <style name="MenuStyle1" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="WindowAnimationTransistion">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+</resources>
